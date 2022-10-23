@@ -1,7 +1,9 @@
 html {
     background-color: #ffffff;
 }
-
+body {
+    background-image: url(/assets/images/group61.svg); /*временная картинка, тк на нее попали лишние фигуры с макета. */
+}
 header {
     display: flex;
     flex-direction: row;
@@ -72,7 +74,6 @@ header {
 nav {
     display: flex;
     flex-direction: row;
-    /* justify-content: space-between; */
     padding-left: 8.3vw;
     padding-top: 1.4vh;
     margin: 0%;
@@ -134,14 +135,11 @@ nav {
     padding-left: 1.35vw;
     width: 5.82vw;
 }
-/*
-
 h1 {
-    position: absolute;
-    width: 1200px;
-    height: 190px;
-    left: 120px;
-    top: 183px;
+    margin: 0%;
+    padding-top: 6.6vh;
+    padding-left: 8.3vw;
+
     font-family: "Oswald", sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -150,9 +148,7 @@ h1 {
     color: #1c2128;
 }
 #list1 {
-    position: absolute;
-    height: 29px;
-    left: 120px;
+    margin-left: 7.8vw;
     font-family: "Montserrat";
     font-style: normal;
     font-weight: 400;
@@ -160,22 +156,71 @@ h1 {
     line-height: 29px;
     color: #676767;
 }
-
 #list1 li:first-child {
-    position: absolute;
-    width: 612px;
-    top: 400px;
+    padding-bottom: 1.44vh;
 }
 #list1 li:nth-child(2) {
-    position: absolute;
-    width: 698px;
-    top: 442px;
+    padding-bottom: 1.44vh;
 }
-#list1 li:last-child {
-    position: absolute;
-    width: 702px;
-    top: 484px;
+#introtext {
+    padding-left: 14.79vw;
+    padding-top: 30.78vh;
 }
+#introtext p {
+    margin: 0%;
+    padding-right: 14.58vw;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 155%;
+    text-align: justify;
+    color: #000000;
+}
+#main__catalogue {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+
+    margin-top: 9.33vh;
+    margin-right: 7vw;
+    margin-left: 8.33vw;
+}
+#main__catalogue div {
+    width: 25.7vw;
+    min-height: 35.78vh;
+    margin-top: 1.667vh;
+    margin-right: 1.04vw;
+    margin-bottom: 1.667vh;
+    margin-left: 1.04vw;
+    border-radius: 10px 10px 10px 10px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+#main__catalogue div a {
+    display: block;
+    box-sizing: border-box;
+    height: 9.11vh;
+    width: inherit;
+    margin-top: 5vh;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+    text-decoration: none;
+}
+#main__catalogue div:hover {
+    filter: drop-shadow(-5px 66px 18px rgba(137, 218, 251, 0.01))
+        drop-shadow(-3px 42px 17px rgba(137, 218, 251, 0.12))
+        drop-shadow(-2px 24px 14px rgba(137, 218, 251, 0.4))
+        drop-shadow(-1px 11px 11px rgba(137, 218, 251, 0.68))
+        drop-shadow(0px 3px 6px rgba(137, 218, 251, 0.79))
+        drop-shadow(0px 0px 0px rgba(137, 218, 251, 0.8));
+}
+/*
 #romb {
     position: absolute;
     width: 2961.5px;
@@ -225,32 +270,8 @@ h1 {
     left: 1221px;
     top: 594px;
 }
-#introtext img {
-    position: absolute;
-    width: 27px;
-    height: 0px;
-    left: 213px;
-    top: 817px;
-}
-#introtext p {
-    position: absolute;
-    width: 1019px;
-    height: 136px;
-    left: 211px;
-    top: 834px;
 
-    font-family: "Montserrat", sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 22px;
-    line-height: 34px;
-
-    text-align: justify;
-
-    color: #000000;
-} */
-
-/*#box2 {
+#box2 {
     position: absolute;
     width: 370px;
     height: 322px;
